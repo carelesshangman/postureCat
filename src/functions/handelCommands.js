@@ -2,7 +2,7 @@ const { REST } = require("@discordjs/rest");
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 
-const clientId = '1118227179445178448'; // right-click on your bot in discord and copy id
+const clientId = ''; // right-click on your bot in discord and copy id
 
 module.exports = (client) => {
     client.handleCommands = async (commandFolders, path) => {
