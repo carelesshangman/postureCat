@@ -2,7 +2,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('posturecheck')
+        .setName('literallywhatevrtfuwant')
         .setDescription('Check your posture!')
         .addStringOption(option =>
             option.setName('time_interval')
